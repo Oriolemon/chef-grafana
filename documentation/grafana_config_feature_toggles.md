@@ -26,7 +26,7 @@ grafana_config_feature_toggles 'grafana'
 ```
 
 ```ruby
-grafana_config_metrics 'grafana' do
+grafana_config_feature_toggles 'grafana' do
   alertingPreviewUpgrade 'false'
 end
 ```
